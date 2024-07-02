@@ -1,21 +1,9 @@
 <div>
   <div class="w3-bar w3-black w3-card">
-    <!--    <span class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"-->
-    <!--          title="Toggle Navigation Menu"><i class="fa fa-bars"></i></span>-->
-    <!--    <span class="w3-bar-item logo-container w3-hide-small">-->
-    <!--      <img height="46" alt="Cover" src="https://drive.google.com/uc?id=1l0ngXRW1VcylthZL6qRgXbvtW4yqx45b"/>-->
-    <!--    </span>-->
     <span [ngClass]="getHomeHeaderClass()" (click)="selectHome()">Home</span>
     <span [ngClass]=getCVHeaderClass() (click)="selectCV()">CV</span>
     <span [ngClass]=getPublicationsHeaderClass() (click)="selectPublications()">Publications</span>
     <span [ngClass]=getTeachingHeaderClass() (click)="selectTeaching()">Teaching</span>
-    <!--    <span *ngIf="rulesSelected"-->
-    <!--          [ngClass]=getLevelUpHeaderClass()-->
-    <!--          style="float: right !important;"-->
-    <!--          [ngStyle]="{'color': isLevelUp? 'green' : 'blue'}"-->
-    <!--          (click)="toggleIsLevelUp()">-->
-    <!--      {{getIsLevelUpText()}}-->
-    <!--    </span>-->
   </div>
 </div>
 <app-home *ngIf="homeSelected"></app-home>

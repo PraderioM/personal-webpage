@@ -31,7 +31,7 @@
           },
           "configurations": {
             "gh-pages": {
-              "baseHref": "https://praderiom.github.io/personal-webpage/",
+              "baseHref": "https://marcopraderiobova.com/",
               "budgets": [
                 {
                   "type": "initial",
