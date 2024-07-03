@@ -8,15 +8,19 @@ import {getHeaderClass} from "./utils";
 })
 export class AppComponent {
   homeSelected = true;
-  CVSelected = false;
+  jobsSelected = false;
   publicationsSelected = false;
+  talksSelected = false;
   teachingSelected = false;
+  otherSelected = false;
 
   deselectAll(): void {
     this.homeSelected = false;
-    this.CVSelected = false;
+    this.jobsSelected = false;
     this.publicationsSelected = false;
+    this.talksSelected = false;
     this.teachingSelected = false;
+    this.otherSelected = false;
   }
 
   selectHome(): void {
@@ -24,9 +28,9 @@ export class AppComponent {
     this.homeSelected = true;
   }
 
-  selectCV(): void {
+  selectJobs(): void {
     this.deselectAll();
-    this.CVSelected = true;
+    this.jobsSelected = true;
   }
 
   selectPublications(): void {
@@ -34,9 +38,19 @@ export class AppComponent {
     this.publicationsSelected = true;
   }
 
+  selectTalks(): void {
+    this.deselectAll();
+    this.talksSelected = true;
+  }
+
   selectTeaching(): void {
     this.deselectAll();
     this.teachingSelected = true;
+  }
+
+  selectOther(): void {
+    this.deselectAll();
+    this.otherSelected = true;
   }
 
   getHomeHeaderClass(): object {
@@ -45,9 +59,9 @@ export class AppComponent {
     return headerClass;
   }
 
-  getCVHeaderClass(): object {
+  getJobsHeaderClass(): object {
     const headerClass: any = getHeaderClass();
-    headerClass['w3-selected'] = this.CVSelected;
+    headerClass['w3-selected'] = this.jobsSelected;
     return headerClass;
   }
 
@@ -57,9 +71,23 @@ export class AppComponent {
     return headerClass;
   }
 
+  getTalksHeaderClass(): object {
+    const headerClass: any = getHeaderClass();
+    headerClass['w3-selected'] = this.talksSelected;
+    return headerClass;
+  }
+
   getTeachingHeaderClass(): object {
     const headerClass: any = getHeaderClass();
     headerClass['w3-selected'] = this.teachingSelected;
     return headerClass;
   }
+
+  getOtherHeaderClass(): object {
+    const headerClass: any = getHeaderClass();
+    headerClass['w3-selected'] = this.otherSelected;
+    return headerClass;
+  }
+
+  protected readonly getHeaderClass = getHeaderClass;
 }

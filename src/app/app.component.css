@@ -1,0 +1,5 @@
+.bar-buttons {
+  margin-left: auto;
+  display: flex;
+  flex-flow: row-reverse wrap-reverse;
+}

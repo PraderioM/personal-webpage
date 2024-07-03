@@ -1,0 +1,38 @@
+.home-main-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10pt;
+  text-align: center;
+}
+
+.home-table {
+  align-self: center;
+  text-align: justify;
+  width: 500pt;
+  /*border: 1px solid;*/
+}
+
+.home-link {
+  color: #36c;
+  text-decoration: none;
+}
+
+.home-line {
+  height: 5px;
+}
+
+.half-width-column {
+  width: 20%;
+}
+
+.small-width-column {
+  width: 15%;
+}
+
+.large-width-column {
+  width: 25%;
+}
+
+.home-image-container {
+  text-align: center;
+}

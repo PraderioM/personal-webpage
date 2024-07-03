@@ -1,12 +1,20 @@
 <div>
   <div class="w3-bar w3-black w3-card">
-    <span [ngClass]="getHomeHeaderClass()" (click)="selectHome()">Home</span>
-    <span [ngClass]=getCVHeaderClass() (click)="selectCV()">CV</span>
-    <span [ngClass]=getPublicationsHeaderClass() (click)="selectPublications()">Publications</span>
-    <span [ngClass]=getTeachingHeaderClass() (click)="selectTeaching()">Teaching</span>
+    <span class="w3-bar-item">Marco Praderio Bova</span>
+    <div class="bar-buttons">
+      <span [ngClass]="getHeaderClass()"></span>
+      <span [ngClass]=getOtherHeaderClass() (click)="selectOther()">More</span>
+      <span [ngClass]=getTeachingHeaderClass() (click)="selectTeaching()">Teaching</span>
+      <span [ngClass]=getTalksHeaderClass() (click)="selectTalks()">Talks and conferences</span>
+      <span [ngClass]=getPublicationsHeaderClass() (click)="selectPublications()">Publications</span>
+      <span [ngClass]="getJobsHeaderClass()" (click)="selectJobs()">Jobs and education</span>
+      <span [ngClass]="getHomeHeaderClass()" (click)="selectHome()">Home</span>
+    </div>
   </div>
 </div>
 <app-home *ngIf="homeSelected"></app-home>
-<app-cv *ngIf="CVSelected"></app-cv>
+<app-academic-jobs-and-education *ngIf="jobsSelected"></app-academic-jobs-and-education>
 <app-publications *ngIf="publicationsSelected"></app-publications>
+<app-talks-and-conferences *ngIf="talksSelected"></app-talks-and-conferences>
 <app-teaching *ngIf="teachingSelected"></app-teaching>
+<app-additional-information *ngIf="otherSelected"></app-additional-information>
