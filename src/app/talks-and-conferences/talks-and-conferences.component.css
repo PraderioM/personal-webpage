@@ -1,0 +1,35 @@
+.talks-main-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10pt;
+  text-align: center;
+}
+
+.talks-table {
+  align-self: center;
+  text-align: justify;
+  width: 600pt;
+  /*border: 1px solid;*/
+}
+
+.talks-line {
+  height: 10px;
+  vertical-align: center;
+}
+
+.talks-division {
+  background-color: black;
+  height: 1px;
+  width: 600pt;
+}
+
+.talks-left-column {
+  width: 80%;
+  /*border: 1px solid;*/
+}
+
+.talks-right-column {
+  width: 20%;
+  text-align: right;
+  /*border: 1px solid;*/
+}

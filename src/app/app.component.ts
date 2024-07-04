@@ -9,8 +9,8 @@ import {getHeaderClass} from "./utils";
 export class AppComponent {
   homeSelected = false;
   jobsSelected = false;
-  publicationsSelected = true;
-  talksSelected = false;
+  publicationsSelected = false;
+  talksSelected = true;
   teachingSelected = false;
   otherSelected = false;
 
