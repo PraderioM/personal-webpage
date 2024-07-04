@@ -19,3 +19,8 @@
 .large-width-column {
   width: 25%;
 }
+
+.link {
+  color: #36c;
+  text-decoration: none;
+}
