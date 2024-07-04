@@ -1,0 +1,52 @@
+.jobs-main-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10pt;
+  text-align: center;
+}
+
+.jobs-table {
+  align-self: center;
+  text-align: justify;
+  width: 600pt;
+  /*border: 1px solid;*/
+}
+
+.jobs-link {
+  color: #36c;
+  text-decoration: none;
+}
+
+.jobs-line {
+  height: 10px;
+  vertical-align: center;
+}
+
+.jobs-division {
+  background-color: black;
+  height: 1px;
+  width: 600pt;
+}
+
+.jobs-left-column {
+  width: 39%;
+}
+
+.jobs-right-column {
+  width: 15%;
+}
+
+.education-left-column {
+  width: 24%;
+  /*border: 1px solid;*/
+}
+
+.education-center-column {
+  width: 4%;
+  /*border: 1px solid;*/
+}
+
+.education-right-column {
+  width: 27%;
+  /*border: 1px solid;*/
+}

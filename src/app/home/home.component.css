@@ -21,18 +21,16 @@
   height: 5px;
 }
 
-.half-width-column {
-  width: 20%;
-}
-
-.small-width-column {
-  width: 15%;
-}
-
-.large-width-column {
-  width: 25%;
-}
-
 .home-image-container {
   text-align: center;
+}
+
+.at-image {
+  height: 1em;
+  width: 1em;
+}
+
+.face-image {
+  height: 125pt;
+  width: 99pt;
 }

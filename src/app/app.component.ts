@@ -7,8 +7,8 @@ import {getHeaderClass} from "./utils";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  homeSelected = true;
-  jobsSelected = false;
+  homeSelected = false;
+  jobsSelected = true;
   publicationsSelected = false;
   talksSelected = false;
   teachingSelected = false;

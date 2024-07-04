@@ -8,6 +8,7 @@ import { TeachingComponent } from './teaching/teaching.component';
 import { TalksAndConferencesComponent } from './talks-and-conferences/talks-and-conferences.component';
 import { AcademicJobsAndEducationComponent } from './academic-jobs-and-education/academic-jobs-and-education.component';
 import { AdditionalInformationComponent } from './additional-information/additional-information.component';
+import {NgOptimizedImage} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -19,9 +20,10 @@ import { AdditionalInformationComponent } from './additional-information/additio
     AcademicJobsAndEducationComponent,
     AdditionalInformationComponent
   ],
-  imports: [
-    BrowserModule
-  ],
+    imports: [
+        BrowserModule,
+        NgOptimizedImage
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

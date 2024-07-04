@@ -3,3 +3,19 @@
   display: flex;
   flex-flow: row-reverse wrap-reverse;
 }
+
+.half-width-column {
+  width: 20%;
+}
+
+.third-width-column {
+  width: 13%;
+}
+
+.small-width-column {
+  width: 15%;
+}
+
+.large-width-column {
+  width: 25%;
+}
