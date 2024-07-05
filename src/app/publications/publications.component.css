@@ -36,7 +36,8 @@
 }
 
 .preprint {
-  align-self: flex-start;
+  width: 600pt;
   display: flex;
   flex-direction: column;
+  text-align: justify;
 }

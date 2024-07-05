@@ -29,3 +29,13 @@
   height: 125pt;
   width: 99pt;
 }
+
+.links-container {
+  align-self: center;
+  width: 500pt;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 50pt;
+}

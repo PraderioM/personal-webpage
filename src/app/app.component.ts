@@ -11,7 +11,7 @@ export class AppComponent {
   jobsSelected = false;
   publicationsSelected = false;
   talksSelected = false;
-  teachingSelected = false;
+  teachingSelected = false; // TODO change back.
   otherSelected = false;
 
   deselectAll(): void {

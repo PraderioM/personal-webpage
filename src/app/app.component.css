@@ -24,3 +24,22 @@
   color: #36c;
   text-decoration: none;
 }
+
+.last-updated {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  text-align: right;
+}
+
+.top-bar {
+  position: fixed;
+}
+
+.supsub {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  vertical-align: middle;
+  font-size: small;
+}

@@ -1,8 +1,8 @@
 <div>
-  <div class="w3-bar w3-black w3-card">
+  <div class="w3-bar w3-black w3-card top-bar">
     <span class="w3-bar-item">Marco Praderio Bova</span>
     <div class="bar-buttons">
-      <span [ngClass]="getHeaderClass()"></span>
+      <span [ngClass]="getHeaderClass()"></span>  <!-- This is used for spacing -->
 <!--      <span [ngClass]=getOtherHeaderClass() (click)="selectOther()">More</span>-->
       <span [ngClass]=getTeachingHeaderClass() (click)="selectTeaching()">Teaching</span>
       <span [ngClass]=getTalksHeaderClass() (click)="selectTalks()">Talks and conferences</span>
@@ -12,9 +12,20 @@
     </div>
   </div>
 </div>
+
+<!-- region phantom header -->
+<!-- The code below is used for padding -->
+<div>
+  <div class="w3-bar">
+    <span class="w3-bar-item">M</span>
+  </div>
+</div>
+<!-- endregion -->
+
 <app-home *ngIf="homeSelected"></app-home>
 <app-academic-jobs-and-education *ngIf="jobsSelected"></app-academic-jobs-and-education>
 <app-publications *ngIf="publicationsSelected"></app-publications>
 <app-talks-and-conferences *ngIf="talksSelected"></app-talks-and-conferences>
 <app-teaching *ngIf="teachingSelected"></app-teaching>
 <app-additional-information *ngIf="otherSelected"></app-additional-information>
+<div class="last-updated">Last updated: 05 July 2024</div>
