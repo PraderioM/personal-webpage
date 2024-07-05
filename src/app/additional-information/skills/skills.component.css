@@ -1,0 +1,16 @@
+.publication-separator {
+  height: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.publications-line {
+  background-color: black;
+  height: 1px;
+  width: 600pt;
+}
+
+.skill {
+  text-align: justify;
+}
