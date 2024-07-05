@@ -2,8 +2,8 @@
   <div class="w3-bar w3-black w3-card top-bar">
     <span class="w3-bar-item">Marco Praderio Bova</span>
     <div class="bar-buttons">
-      <span [ngClass]="getHeaderClass()"></span>  <!-- This is used for spacing -->
-<!--      <span [ngClass]=getOtherHeaderClass() (click)="selectOther()">More</span>-->
+      <span class="w3-bar-item w3-padding w3-hide-small"></span>  <!-- This is used for spacing -->
+      <span [ngClass]=getOtherHeaderClass() (click)="selectOther()">More</span>
       <span [ngClass]=getTeachingHeaderClass() (click)="selectTeaching()">Teaching</span>
       <span [ngClass]=getTalksHeaderClass() (click)="selectTalks()">Talks and conferences</span>
       <span [ngClass]=getPublicationsHeaderClass() (click)="selectPublications()">Publications</span>
@@ -17,7 +17,16 @@
 <!-- The code below is used for padding -->
 <div>
   <div class="w3-bar">
-    <span class="w3-bar-item">M</span>
+    <span class="w3-bar-item">Marco Praderio Bova</span>
+    <div class="bar-buttons">
+      <span class="w3-bar-item w3-padding w3-hide-small"></span>  <!-- This is used for spacing -->
+      <span class="w3-bar-item w3-padding w3-hide-small">More</span>
+      <span class="w3-bar-item w3-padding w3-hide-small">Teaching</span>
+      <span class="w3-bar-item w3-padding w3-hide-small">Talks and conferences</span>
+      <span class="w3-bar-item w3-padding w3-hide-small">Publications</span>
+      <span class="w3-bar-item w3-padding w3-hide-small">Jobs and education</span>
+      <span class="w3-bar-item w3-padding w3-hide-small">Home</span>
+    </div>
   </div>
 </div>
 <!-- endregion -->

@@ -1,0 +1,48 @@
+.other-main-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10pt;
+  text-align: center;
+}
+
+.other-jobs-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 600pt;
+}
+
+.other-events-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 600pt;
+}
+
+.other-awards-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 600pt;
+}
+
+.other-training-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 600pt;
+}
+
+.other-skills-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 600pt;
+}
+
+.edi-statement {
+  align-self: center;
+  text-align: justify;
+  width: 600pt;
+  padding-bottom: 20pt;
+}
