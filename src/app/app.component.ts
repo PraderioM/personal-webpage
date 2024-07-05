@@ -7,11 +7,11 @@ import {getHeaderClass} from "./utils";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  homeSelected = true;
+  homeSelected =true;
   jobsSelected = false;
   publicationsSelected = false;
   talksSelected = false;
-  teachingSelected = false; // TODO change back.
+  teachingSelected = false;
   otherSelected = false;
 
   deselectAll(): void {

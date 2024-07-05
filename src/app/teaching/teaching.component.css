@@ -1,0 +1,80 @@
+.teaching-main-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10pt;
+  text-align: center;
+}
+
+.teaching-position-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 600pt;
+}
+
+.teaching-other-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 600pt;
+}
+
+.teaching-position-line {
+  width: 600pt;
+  display: block;
+  font-size: large;
+}
+
+.teaching-other-line {
+  width: 600pt;
+  display: block;
+}
+
+.teaching-course-line {
+  width: 500pt;
+  display: block;
+  align-self: center;
+}
+
+.teaching-left {
+  float: left;
+  text-align: justify;
+}
+
+.teaching-right {
+  float: right;
+  text-align: right;
+}
+
+.description {
+  float: left;
+  text-align: justify;
+  /*font-size: small;*/
+}
+
+.teaching-separator {
+  height: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.teaching-separator-small {
+  height: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.teaching-line {
+  background-color: black;
+  height: 1px;
+  width: 600pt;
+}
+
+.teaching-line-small {
+  background-color: black;
+  height: 1px;
+  width: 500pt;
+  align-self: center;
+}
