@@ -1,28 +1,28 @@
-.other-awards-table {
+.other-training-table {
   align-self: center;
   text-align: justify;
   width: 600pt;
   /*border: 1px solid;*/
 }
 
-.other-awards-line {
+.other-training-line {
   height: 10px;
   vertical-align: center;
 }
 
-.other-awards-division {
+.other-training-division {
   background-color: black;
   height: 1px;
   width: 600pt;
 }
 
-.other-awards-left-column {
-  width: 60%;
+.other-training-left-column {
+  width: 70%;
   /*border: 1px solid;*/
 }
 
-.other-awards-right-column {
+.other-training-right-column {
   text-align: right;
-  width: 25%;
+  width: 10%;
   /*border: 1px solid;*/
 }
