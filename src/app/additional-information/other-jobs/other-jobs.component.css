@@ -1,0 +1,28 @@
+.other-jobs-table {
+  align-self: center;
+  text-align: justify;
+  width: 600pt;
+  /*border: 1px solid;*/
+}
+
+.other-jobs-line {
+  height: 10px;
+  vertical-align: center;
+}
+
+.other-jobs-division {
+  background-color: black;
+  height: 1px;
+  width: 600pt;
+}
+
+.other-jobs-left-column {
+  width: 39%;
+  /*border: 1px solid;*/
+}
+
+.other-jobs-right-column {
+  text-align: right;
+  width: 25%;
+  /*border: 1px solid;*/
+}
