@@ -1,55 +1,78 @@
 <div class="home-main-container">
+
+  <!-- region About me -->
   <h1>About me</h1>
-  <table class="home-table">
-    <tr>
-      <th class="half-width-column home-image-container">
-        <img ngSrc="assets/face.jpg" alt="Marco Praderio Bova" height="345" width="275" class="face-image">
-      </th>
-      <td class="half-width-column">My <b>name</b> is <em>Marco Praderio Bova</em>. I am <b>currently</b> a <em>research fellow</em> in
+  <div class="home-info-container">
+    <!--  region introduction  -->
+    <div class="home-row">
+      <span class="home-image-container home-half-width">
+        <img ngSrc="assets/face.jpg" alt="Marco Praderio Bova" height="345" width="275" class="home-face-image">
+      </span>
+      <span class="home-text-container home-half-width">
+        My <b>name</b> is <em>Marco Praderio Bova</em>. I am <b>currently</b> a <em>research fellow</em> in
         the <a class="link" href="https://www.mfo.de/" target="_blank">Oberwolfach Research Institute for Mathematics</a>. Prior to
         that I was a PhD student in <a class="link" href="https://www.lancaster.ac.uk/" target="_blank">Lancaster University</a>
         where I did my <a class="link" href="https://www.research.lancs.ac.uk/portal/en/publications/mackey-functors-over-fusion-systems(fdfb35c9-7a68-4edd-b6a9-868dfdcddd1a).html" target="_blank">thesis</a>
         (titled "Mackey functors over fusion systems") under the supervision of Professor
         <a class="link" href="https://www.lancaster.ac.uk/maths/people/nadia-mazza" target="_blank">Nadia Mazza</a>.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2">
-      My <b>research interests</b> lie in the fields of homotopy theory, homological algebra and representation theory
-      with applications to group theory and related topics. Although I am open to expanding my research horizons.
-      During my PhD I have studied Mackey functors over fusion systems. In particular I have proved an induction
-      result similar to Green correspondence, and my latest work is focused on the study of the sharpness conjecture
-      for fusion systems, which concerns the vanishing of higher limits of the cohomology functor.
-    </td>
-    </tr>
+      </span>
+    </div>
+    <!--  endregion  -->
+    <!--  region research interests  -->
+    <span class="home-row">
+        <span class="home-text-container">
+          My <b>research interests</b> lie in the fields of homotopy theory, homological algebra and representation
+          theory with applications to group theory and related topics. Although I am open to expanding my research
+          horizons. During my PhD I have studied Mackey functors over fusion systems. In particular I have proved an
+          induction result similar to Green correspondence, and my latest work is focused on the study of the sharpness
+          conjecture for fusion systems, which concerns the vanishing of higher limits of the cohomology functor.
+        </span>
+    </span>
+    <!--  endregion  -->
+  </div>
+  <!-- endregion -->
 
-  </table>
+  <!-- region Contact details -->
   <h1>Contact details</h1>
-  <table class="home-table">
-    <tr>
-      <th class="half-width-column">e-mail:</th>
-      <td class="half-width-column">PraderioM<img ngSrc="assets/at.png" alt="at sign" class="at-image" height="24" width="25">Gmail.com
-      </td>
-    </tr>
-    <tr class="home-line"></tr>
-    <tr>
-      <th class="small-width-column">address:</th>
-      <td class="large-width-column">Mathematisches Forschungsinstitut Oberwolfach</td>
-    </tr>
-    <tr>
-      <th class="small-width-column"></th>
-      <td class="large-width-column">Schwarzwaldstr. 9-11</td>
-    </tr>
-    <tr>
-      <th class="small-width-column"></th>
-      <td class="large-width-column">77709 Oberwolfach-Walke</td>
-    </tr>
-    <tr>
-      <th class="small-width-column"></th>
-      <td class="large-width-column">Germany</td>
-    </tr>
-    <tr class="home-line"></tr>
-  </table>
+  <div class="home-info-container">
+    <!--  region email  -->
+    <div class="home-row">
+      <span class="home-header home-text-container">
+        e-mail:
+      </span>
+      <span class="home-text-container">
+        PraderioM<img ngSrc="assets/at.png" alt="at sign" class="at-image" height="24" width="25">Gmail.com
+      </span>
+    </div>
+    <!--  endregion  -->
+
+    <div class="home-vertical-spacing"></div>
+
+    <!--  region address  -->
+    <div class="home-row">
+      <span class="home-header home-text-container">
+        address:
+      </span>
+      <div class="home-column">
+        <span class="home-text-container">
+          Mathematisches Forschungsinstitut Oberwolfach
+        </span>
+        <span class="home-text-container">
+          Schwarzwaldstr. 9-11
+        </span>
+        <span class="home-text-container">
+          77709 Oberwolfach-Walke
+        </span>
+        <span class="home-text-container">
+          Germany
+        </span>
+      </div>
+    </div>
+    <!--  endregion  -->
+  </div>
+  <!-- endregion -->
+
+  <!-- region links -->
   <div class="links-container">
     <span><a class="link" href="https://www.lancaster.ac.uk/maths/people/marco-praderio" target="_blank">Institutional webpage</a></span>
     •
@@ -61,4 +84,5 @@
     •
     <span><a class="link" href="https://github.com/PraderioM" target="_blank">GitHub</a></span>
   </div>
+  <!-- endregion -->
 </div>

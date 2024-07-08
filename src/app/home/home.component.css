@@ -5,15 +5,37 @@
   text-align: center;
 }
 
-.home-table {
+.home-info-container {
+  display: flex;
   align-self: center;
-  text-align: justify;
+  flex-direction: column;
   width: 500pt;
-  /*border: 1px solid;*/
 }
 
-.home-line {
-  height: 5px;
+.home-row {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+.home-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.home-text-container {
+  text-align: justify;
+  width: 100%;
+}
+
+.home-half-width {
+  width: 50%;
+}
+
+.home-header {
+  font-weight: bold;
+  width: 81%;
 }
 
 .home-image-container {
@@ -25,9 +47,14 @@
   width: 1em;
 }
 
-.face-image {
+.home-face-image {
   height: 125pt;
   width: 99pt;
+}
+
+.home-vertical-spacing {
+  width: 100%;
+  height: 5px;
 }
 
 .links-container {
