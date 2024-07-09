@@ -5,44 +5,61 @@
   text-align: center;
 }
 
-.jobs-table {
+.jobs-container {
   align-self: center;
   text-align: justify;
   width: 600pt;
-  /*border: 1px solid;*/
+  flex-flow: column;
+}
+
+.jobs-row {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+.jobs-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.jobs-left-column {
+  width: 437pt;
+}
+
+.education-left-column {
+  width: 236pt;
+}
+
+.education-center-column {
+  width: 108pt;
+}
+
+.education-right-column {
+  width: 262pt;
+}
+
+.jobs-text-container {
+  text-align: justify;
+}
+
+.jobs-separator {
+  height: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .jobs-line {
-  height: 10px;
-  vertical-align: center;
-}
-
-.jobs-division {
   background-color: black;
   height: 1px;
   width: 600pt;
 }
 
-.jobs-left-column {
-  width: 39%;
+.jobs-bold {
+  font-weight: bold;
 }
 
-.jobs-right-column {
-  text-align: right;
-  width: 15%;
-}
-
-.education-left-column {
-  width: 24%;
-  /*border: 1px solid;*/
-}
-
-.education-center-column {
-  width: 4%;
-  /*border: 1px solid;*/
-}
-
-.education-right-column {
-  width: 27%;
-  /*border: 1px solid;*/
+.jobs-invisible {
+  visibility: hidden;
 }
