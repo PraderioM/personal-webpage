@@ -8,13 +8,14 @@ import { TeachingComponent } from './teaching/teaching.component';
 import { TalksAndConferencesComponent } from './talks-and-conferences/talks-and-conferences.component';
 import { AcademicJobsAndEducationComponent } from './academic-jobs-and-education/academic-jobs-and-education.component';
 import { AdditionalInformationComponent } from './additional-information/additional-information.component';
-import {NgOptimizedImage} from "@angular/common";
+import { NgOptimizedImage } from "@angular/common";
 import { OtherJobsComponent } from './additional-information/other-jobs/other-jobs.component';
 import { EventsComponent } from './additional-information/events/events.component';
 import { AwardsComponent } from './additional-information/awards/awards.component';
 import { TrainingComponent } from './additional-information/training/training.component';
 import { SkillsComponent } from './additional-information/skills/skills.component';
 import { EDIComponent } from './additional-information/edi/edi.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { EDIComponent } from './additional-information/edi/edi.component';
   ],
     imports: [
         BrowserModule,
-        NgOptimizedImage
+        NgOptimizedImage,
+        FontAwesomeModule,
     ],
   providers: [],
   bootstrap: [AppComponent]

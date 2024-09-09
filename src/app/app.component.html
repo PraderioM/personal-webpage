@@ -1,15 +1,30 @@
 <div class="master-container">
   <div>
     <div class="w3-bar w3-black w3-card">
-      <span class="w3-bar-item">Marco Praderio Bova</span>
+      <span class="w3-bar-item long-name">Marco Praderio Bova</span>
+      <span class="w3-bar-item short-name">Marco Praderio</span>
+      <span class="w3-bar-item very-short-name">M. Praderio</span>
+
+      <!--  The bar buttons class has style hidden if screen width is too small.  -->
       <div class="bar-buttons">
-        <span class="w3-bar-item w3-padding w3-hide-small top-bar-spacing"></span>  <!-- This is used for spacing -->
-        <span [ngClass]=getOtherHeaderClass() (click)="selectOther()">More</span>
-        <span [ngClass]=getTeachingHeaderClass() (click)="selectTeaching()">Teaching</span>
-        <span [ngClass]=getTalksHeaderClass() (click)="selectTalks()">Talks and conferences</span>
-        <span [ngClass]=getPublicationsHeaderClass() (click)="selectPublications()">Publications</span>
-        <span [ngClass]="getJobsHeaderClass()" (click)="selectJobs()">Jobs and education</span>
+        <span class="w3-bar-item w3-padding w3-hide-small top-bar-spacing long-header"></span>  <!-- This is used for spacing -->
+        <span [ngClass]="getRightArrowClass()" (click)="moveStartIndex(1)">
+          <fa-icon [icon]="faCaretRight"></fa-icon>
+        </span>
+
+        <span [ngClass]="getOtherHeaderClass()" (click)="selectOther()">More</span>
+        <span [ngClass]="getTeachingHeaderClass()" (click)="selectTeaching()">Teaching</span>
+        <span [ngClass]="getTalksHeaderClass()" class="long-header" (click)="selectTalks()">Talks and conferences</span>
+        <span [ngClass]="getTalksHeaderClass()" class="short-header" (click)="selectTalks()">Talks</span>
+        <span [ngClass]="getPublicationsHeaderClass()" class="long-header" (click)="selectPublications()">Publications</span>
+        <span [ngClass]="getPublicationsHeaderClass()" class="short-header" (click)="selectPublications()">Papers</span>
+        <span [ngClass]="getJobsHeaderClass()" class="long-header" (click)="selectJobs()">Jobs and education</span>
+        <span [ngClass]="getJobsHeaderClass()" class="short-header" (click)="selectJobs()">Jobs</span>
         <span [ngClass]="getHomeHeaderClass()" (click)="selectHome()">Home</span>
+
+        <span [ngClass]="getLeftArrowClass()" (click)="moveStartIndex(-1)">
+          <fa-icon [icon]="faCaretLeft"></fa-icon>
+        </span>
       </div>
     </div>
   </div>
