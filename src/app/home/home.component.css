@@ -88,7 +88,7 @@
   .home-info-container{ width: 350px; }
   .links-container { width: 350px; flex-flow: wrap; }
   .home-face-image {
-    height: 165px;
+    height: 155px;
     width: 110px;
   }
   .introduction-570-plus { display: none; }
@@ -99,7 +99,7 @@
   .home-info-container{ width: 280px; }
   .links-container { width: 280px; }
   .home-face-image {
-    height: 145px;
+    height: 135px;
     width: 90px;
   }
   .introduction-390-570 { display: none; }

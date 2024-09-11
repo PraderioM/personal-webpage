@@ -30,6 +30,8 @@
   bottom: 5px;
   right: 5px;
   text-align: right;
+  width: 100%;
+  background-color: white;
 }
 
 .supsub {
