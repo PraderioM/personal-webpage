@@ -8,8 +8,8 @@ import {faCaretLeft, faCaretRight} from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  homeSelected = false; // TODO change back
-  jobsSelected = true; // TODO change back
+  homeSelected = true;
+  jobsSelected = false;
   publicationsSelected = false;
   talksSelected = false;
   teachingSelected = false;
