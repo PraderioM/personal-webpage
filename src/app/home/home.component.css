@@ -73,7 +73,8 @@
   padding-top: 67px;
 }
 
-.introduction-570-plus { display: block }
+.introduction-740-plus { display: block }
+.introduction-570-740 { display: none }
 .introduction-390-570 { display: none }
 .introduction-390-less { display: none }
 
@@ -82,6 +83,8 @@
   .links-container { width: 500px; }
   .home-left-side{width: 40%;}
   .home-right-side{width: 60%;}
+  .introduction-740-plus { display: none; }
+  .introduction-570-740 { display: block; }
 }
 
 @media(max-width: 570px) {
@@ -91,7 +94,7 @@
     height: 155px;
     width: 110px;
   }
-  .introduction-570-plus { display: none; }
+  .introduction-570-740 { display: none; }
   .introduction-390-570 { display: block; }
 }
 
