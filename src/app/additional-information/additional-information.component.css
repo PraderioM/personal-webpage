@@ -10,6 +10,7 @@
   flex-direction: column;
   align-self: center;
   width: 800px;
+  font-size: 15px;
 }
 
 .other-events-container {
@@ -17,6 +18,7 @@
   flex-direction: column;
   align-self: center;
   width: 800px;
+  font-size: 15px;
 }
 
 .other-awards-container {
@@ -24,6 +26,7 @@
   flex-direction: column;
   align-self: center;
   width: 800px;
+  font-size: 15px;
 }
 
 .other-training-container {
@@ -31,6 +34,7 @@
   flex-direction: column;
   align-self: center;
   width: 800px;
+  font-size: 15px;
 }
 
 .other-skills-container {
@@ -38,12 +42,14 @@
   flex-direction: column;
   align-self: center;
   width: 800px;
+  font-size: 15px;
 }
 
 .edi-statement {
   align-self: center;
   text-align: justify;
   width: 800px;
+  font-size: 15px;
   /*padding-bottom: 20pt;*/
 }
 
