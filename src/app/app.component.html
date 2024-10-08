@@ -8,7 +8,10 @@
       <!--  The bar buttons class has style hidden if screen width is too small.  -->
       <div class="bar-buttons">
         <span class="w3-bar-item w3-padding w3-hide-small top-bar-spacing long-header"></span>  <!-- This is used for spacing -->
-        <span [ngClass]="getRightArrowClass()" (click)="moveStartIndex(1)">
+        <span [ngClass]="getRightArrowOver616Class()" (click)="moveStartIndex(1)">
+          <fa-icon [icon]="faCaretRight"></fa-icon>
+        </span>
+        <span [ngClass]="getRightArrowUnder616Class()" (click)="changeSelectedPage(1)">
           <fa-icon [icon]="faCaretRight"></fa-icon>
         </span>
 
@@ -22,7 +25,10 @@
         <span [ngClass]="getJobsHeaderClass()" class="short-header" (click)="selectJobs()">Jobs</span>
         <span [ngClass]="getHomeHeaderClass()" (click)="selectHome()">Home</span>
 
-        <span [ngClass]="getLeftArrowClass()" (click)="moveStartIndex(-1)">
+        <span class="over-616-arrow"  [ngClass]="getLeftArrowOver616Class()" (click)="moveStartIndex(-1)">
+          <fa-icon [icon]="faCaretLeft"></fa-icon>
+        </span>
+        <span class="under-616-arrow"  [ngClass]="getLeftArrowUnder616Class()" (click)="changeSelectedPage(-1)">
           <fa-icon [icon]="faCaretLeft"></fa-icon>
         </span>
       </div>
