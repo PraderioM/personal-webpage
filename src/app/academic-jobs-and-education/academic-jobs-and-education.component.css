@@ -5,6 +5,8 @@
   text-align: center;
 }
 
+.jobs-title {}
+
 .jobs-container {
   align-self: center;
   text-align: justify;
@@ -70,6 +72,10 @@
   display: none;
 }
 
+.jobs-visible-620-820-only {
+  display: none;
+}
+
 .jobs-visible-under-620-only {
   display: none;
 }
@@ -78,15 +84,25 @@
   .jobs-container{ width: 600px; }
   .jobs-line{ width: 600px; }
   .jobs-visible-under-820-only { display: block; }
+  .jobs-visible-620-820-only { display: block; }
 }
 
 @media(max-width: 620px) {
-  .jobs-container{ width: 380px; }
-  .jobs-line{ width: 380px; }
+  .jobs-container{ width: 400px; }
+  .jobs-line{ width: 400px; }
+  .jobs-visible-620-820-only { display: none; }
   .jobs-visible-under-620-only {display: block; }
   .jobs-left-column{ width: 170px;}
-  .education-left-column { width: 320px; padding-right: 10px; }
-  .education-center-column { width: 124px; padding-right: 10px; }
+  .education-left-column { width: 320px; padding-right: 20px; }
+  .education-center-column { width: 124px; padding-right: 20px; }
   /*.jobs-right-column{ width: 30%;}*/
 }
 
+@media (max-width: 420px) {
+  .jobs-main-container { font-size: 14px; }
+  .jobs-title { font-size: xx-large; }
+  .jobs-container{ width: 350px; }
+  .jobs-line{ width: 350px; }
+  .education-left-column { width: 320px; padding-right: 5px; }
+  .education-center-column { width: 124px; padding-right: 5px; }
+}
