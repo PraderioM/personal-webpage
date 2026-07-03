@@ -1,10 +1,28 @@
 import { Component } from '@angular/core';
 import {getHeaderClass, getArrowClass} from "./utils";
 import {faCaretLeft, faCaretRight} from '@fortawesome/free-solid-svg-icons';
+import {HomeComponent} from "./home/home.component";
+import {AcademicJobsAndEducationComponent} from "./academic-jobs-and-education/academic-jobs-and-education.component";
+import {PublicationsComponent} from "./publications/publications.component";
+import {TalksAndConferencesComponent} from "./talks-and-conferences/talks-and-conferences.component";
+import {TeachingComponent} from "./teaching/teaching.component";
+import {AdditionalInformationComponent} from "./additional-information/additional-information.component";
+import {FaIconComponent} from "@fortawesome/angular-fontawesome";
+import {AppModule} from "./app.module";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
+  imports: [
+    AppModule,
+    HomeComponent,
+    AcademicJobsAndEducationComponent,
+    PublicationsComponent,
+    TalksAndConferencesComponent,
+    TeachingComponent,
+    AdditionalInformationComponent,
+    FaIconComponent
+  ],
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
