@@ -78,6 +78,11 @@
 .introduction-390-570 { display: none }
 .introduction-390-less { display: none }
 
+.lower-introduction-740-plus { margin-top: -15pt }
+.lower-introduction-570-740 { margin-top: -15pt }
+.lower-introduction-390-570 { margin-top: -15pt }
+.lower-introduction-390-less { margin-top: -15pt }
+
 @media(max-width: 740px) {
   .home-info-container{ width: 500px; }
   .links-container { width: 500px; }
